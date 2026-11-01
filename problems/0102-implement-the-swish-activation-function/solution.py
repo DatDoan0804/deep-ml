@@ -12,4 +12,4 @@ def swish(x: float) -> float:
             The Swish activation value
     """
     # Your code here
-    return x * (1/(1+np.e**(-x)))
+    return x / (1+np.exp(-x))
